@@ -16,4 +16,18 @@ ext {
         implementation deps.google.androidx.design
         implementation deps.google.androidx.constraintLayout
     }
+    di = Group {
+        implementation deps.dagger.core
+        implementation deps.dagger.androidSupport
+        kapt deps.dagger.compiler
+        kapt deps.dagger.processor
+    }
+    network = Group {
+        implementation deps.okhttp.core
+        implementation deps.okhttp.logging
+        implementation deps.retrofit.core
+        implementation deps.retrofit.gson
+        implementation deps.retrofit.rxjava
+    }
+
 }

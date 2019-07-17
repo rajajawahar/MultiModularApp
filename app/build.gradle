@@ -4,13 +4,17 @@ apply from: '../dependencies-versions.gradle'
 apply from: '../dependencies-groups.gradle'
 
 
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+android {
+    defaultConfig {
+        applicationId 'com.tarkalabs.mutlimoduleproject'
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled = true
+    }
+}
 
+dependencies {
     core()
     ui()
+    di()
+    network()
 }
