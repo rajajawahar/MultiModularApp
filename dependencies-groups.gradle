@@ -28,6 +28,7 @@ ext {
         implementation deps.retrofit.core
         implementation deps.retrofit.gson
         implementation deps.retrofit.rxjava
+        implementation deps.retrofit.rxandroid
     }
 
 }

@@ -15,7 +15,11 @@ ext.versions = [
         'retrofit'         : [
                 'core'         : '2.6.0',
                 'gsonConverter': '2.6.0',
-                'rxjava'       : '2.6.0'
+                'adapter'      : '1.0.0',
+                'rxjava'       : '2.6.0',
+                'rxjava2'       : '2.2.10',
+                'rxandroid'       : '2.1.1'
+
         ],
         'okhttp'           : [
                 'core'   : '4.0.1',

@@ -30,8 +30,12 @@ ext.deps = [
         ],
         'retrofit': [
                 'core': "com.squareup.retrofit2:retrofit:$versions.retrofit.core",
-                'rxjava': "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit.rxjava",
-                'gson': "com.squareup.retrofit2:converter-gson:$versions.retrofit.gsonConverter"
+                'gson': "com.squareup.retrofit2:converter-gson:$versions.retrofit.gsonConverter",
+                'adapter': "com.squareup.retrofit2:adapter-rxjava:2.6.0",
+                'rxjava': "io.reactivex.rxjava2:rxjava:$versions.retrofit.rxjava2",
+                'rxandroid': "io.reactivex.rxjava2:rxandroid:$versions.retrofit.rxandroid",
+
+
         ],
         'gson': "com.google.code.gson:gson:$versions.gson",
 ]

@@ -17,4 +17,5 @@ dependencies {
     ui()
     di()
     network()
+    implementation project(':core')
 }
