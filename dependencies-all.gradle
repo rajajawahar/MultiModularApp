@@ -1,0 +1,16 @@
+ext.deps = [
+        'kotlin': [
+                'core': "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin",
+                'reflect': "org.jetbrains.kotlin:kotlin-reflect:$versions.kotlin"
+        ],
+        'google': [
+                'androidx': [
+                        'appcompat': "androidx.appcompat:appcompat:$versions.androidx.compat",
+                        'core': "androidx.core:core:$versions.androidx.core",
+                        'cardview': "androidx.cardview:cardview:$versions.androidx.cardview",
+                        'recyclerview': "androidx.recyclerview:recyclerview:$versions.androidx.recyclerview",
+                        'design': "com.google.android.material:material:$versions.material",
+                        'constraintLayout': "androidx.constraintlayout:constraintlayout:$versions.constraint_layout"
+                ]
+        ]
+]
