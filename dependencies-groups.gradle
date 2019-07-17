@@ -30,5 +30,10 @@ ext {
         implementation deps.retrofit.rxjava
         implementation deps.retrofit.rxandroid
     }
+    image = Group {
+        implementation deps.glide.core
+        implementation deps.glide.okhttp
+        kapt deps.glide.compiler
+    }
 
 }

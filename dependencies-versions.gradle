@@ -11,7 +11,7 @@ ext.versions = [
         ],
         'material'         : '1.0.0',
         'constraint_layout': '1.1.3',
-
+        'glide'            : '4.9.0',
         'retrofit'         : [
                 'core'         : '2.6.0',
                 'gsonConverter': '2.6.0',
